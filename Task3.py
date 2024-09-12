@@ -34,4 +34,4 @@ except sqlite3.OperationalError as e:
 
 # Parameterized query
 
-cursor.execute("INSERT INTO students (name, grade) VALUES (?, ?)", ('Bob', 92.3))
+cursor.execute("INSERT INTO Students (name, grade) VALUES (?, ?)", ('Bob', 92.3))
